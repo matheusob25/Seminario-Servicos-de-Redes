@@ -7,3 +7,5 @@ COPY . .
 
 EXPOSE 5000
 CMD ["python", "app.py"]
+
+# sudo docker build -t service_web -f service_web.dockerfile .
