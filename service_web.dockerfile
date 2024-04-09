@@ -13,3 +13,4 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 
 # sudo docker build -t service_web -f service_web.dockerfile .
+# sudo docker run -d --name service_web -p 5000:5000 service_web
